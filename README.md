@@ -1,10 +1,16 @@
 Project for clustering trajectories in cilia videos for identifying common motion patterns.
 
-### Examples
-<img src="examples/3d-cluster.png" height="480">
-
+### Pipeline
+1. Compute trajectories and trajectory based features
 ![](examples/3d-tracks.gif)
 
+2. Cluster trajectories in regions of interest separately for multiple feature spaces 
+<img src="examples/multiple_features.png" height="480">
+
+3. Fuse multiple feature clusters
+<img src="examples/3d-cluster.png" height="480">
+
+4. Use hierarchical agglomerative clustering to cluster together similar motions among entire dataset
 ![](examples/dendrogram.gif)
 
 ### References
