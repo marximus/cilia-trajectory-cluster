@@ -1,6 +1,8 @@
 Project for clustering trajectories in cilia videos for identifying common motion patterns.
 
 ### Examples
+<img src="examples/3d-cluster.png" height="480">
+
 ![](examples/3d-tracks.gif)
 
 ![](examples/dendrogram.gif)
